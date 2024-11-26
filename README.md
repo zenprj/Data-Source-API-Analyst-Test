@@ -20,9 +20,9 @@ The primary goal of this test is to demonstrate the ability to interact with the
    - Review the official [GitHub API documentation](https://docs.github.com/en/rest) to identify relevant endpoints.
    - Understand request structures, pagination mechanisms, rate limits, and error handling.
 2. **Endpoint Identification**:
-   - Search repositories: `/search/repositories`
-   - List commits: `/repos/{owner}/{repo}/commits`
-   - Get contents: `/repos/{owner}/{repo}/contents/{path}`
+   - Search repositories: `/search/repositories` [doc link](https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-repositories)
+   - List commits: `/repos/{owner}/{repo}/commits` [doc link](https://docs.github.com/en/rest/commits/commits?apiVersion=2022-11-28)
+   - Get contents: `/repos/{owner}/{repo}/contents/{path}` [doc link](https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28)
 
 ---
 
@@ -102,4 +102,5 @@ Include the folder structure and a basic `README.md` to provide project context.
 ---
 
 ### Reflection
-Include your thoughts on the process, challenges faced, and areas for improvement in the `README.md` file under the "Reflection" section.
+
+Great task!
